@@ -12,14 +12,14 @@ for bash
 
     wget https://raw.githubusercontent.com/thibault-ketterer/artlead-completion/main/completion-artelad.bash
 	mv completion_artelad.bash ~/
-	echo "source completion_artelad.bash" >> ~/.bashrc
+	echo "source ~/completion_artelad.bash" >> ~/.bashrc
 
 
 for zsh (in progress..., only 2 subcommands for now)
 
     wget https://raw.githubusercontent.com/thibault-ketterer/artlead-completion/main/completion-artelad.zsh
 	mv completion-artelad.zsh ~/
-	echo "source completion-artelad.zsh" >> ~/.zshrc
+	echo "source ~/completion-artelad.zsh" >> ~/.zshrc
 
 # Demo
 ![Demo asciinema artelad completion](demo.gif "demo asciinema artelad completion")
