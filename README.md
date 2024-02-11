@@ -9,6 +9,6 @@ for bash
 for zsh (in progress..., only 2 subcommands for now)
 
 	cp completion-artelad.zsh ~/
-	echo "source completion-artelad.zsh" >> ~/.zhrc
+	echo "source completion-artelad.zsh" >> ~/.zshrc
 
 ![Demo asciinema artelad completion](demo.gif "demo asciinema artelad completion")
